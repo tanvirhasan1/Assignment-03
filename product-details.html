@@ -1,0 +1,260 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>E-commerce Website - Assignment 03</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- All CSS Here -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/meanmenu.css">
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <!-- header start -->
+  <header>
+    <div class="header-area gray-bg">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo/logo.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-8 col-sm-6">
+            <div class="main-menu">
+              <nav id="mobile-menu">
+                <ul>
+                  <li><a href="index.html" target="_blank">Home</a></li>
+                  <li><a class="active" href="about.html" target="_blank">About</a></li>
+                  <li><a href="#">Shop <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="submenu">
+                      <li><a href="cart.html" target="_blank">Cart</a></li>
+                      <li><a href="product-details.html">Product Details</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 d-none d-lg-block">
+            <div class="cart-btn text-end">
+              <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span>2</span></a>
+            </div>
+          </div>
+          <div class="mobile-menu"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <main>
+    <!-- page-title-area start -->
+    <section class="page-title-area theme-bg pt-150 pb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 offset-xxl-3">
+            <div class="page-title text-center">
+              <h1>Product Details</h1>
+              <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- page-title-area end -->
+
+    <!-- about-area start -->
+    <section class="product-details-area pt-100 pb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-5 col-xl-6 col-lg-7">
+            <div class="product-tabs d-block d-sm-flex mb-30">
+              <ul class="nav" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                    <div class="product-tab-thumb">
+                      <img src="img/product/product-info/pro-thumb1.jpg" alt="">
+                    </div>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                    <div class="product-tab-thumb">
+                      <img src="img/product/product-info/pro-thumb2.jpg" alt="">
+                    </div>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                    <div class="product-tab-thumb">
+                      <img src="img/product/product-info/pro-thumb3.jpg" alt="">
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <div class="product-tab-content tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <div class="product-tab-img">
+                    <img src="img/product/product-info/pro1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  <div class="product-tab-img">
+                    <img src="img/product/product-info/pro2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  <div class="product-tab-img">
+                    <img src="img/product/product-info/pro3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-xxl-7 col-xl-6 col-lg-5">
+            <div class="product-details">
+              <div class="product-details-reviews mb-20">
+                <div class="ratings f-left fix">
+                  <a href="#"><i class="fa-solid fa-star"></i></a>
+                  <a href="#"><i class="fa-solid fa-star"></i></a>
+                  <a href="#"><i class="fa-solid fa-star"></i></a>
+                  <a href="#"><i class="fa-solid fa-star"></i></a>
+                  <a href="#"><i class="fa-solid fa-star"></i></a>
+                </div>
+                <span><a href="#">99 Reviews</a></span>
+              </div>
+              <div class="product-details-name mb-15">
+                <h3><a href="#">Rubik's Cube</a></h3>
+                <span><del>$119.00</del> $50.00</span>
+              </div>
+              <p>On the original classic Rubik's Cube, each of the six faces was covered by nine stickers, each of one of six solid colours: white, red, blue, orange, green, and yellow. Some later versions of the cube have been updated to use coloured plastic panels instead, which prevents peeling and fading.[12] Since 1988, the arrangement of colours has been standardised with white opposite yellow, blue opposite green, and orange opposite red, and the red, white, and blue arranged clockwise in that order.[13] On early cubes, the position of the colours varied from cube to cube</p>
+              <a href="#" class="default-btn black-btn mt-10">Buy Now</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="row pt-80">
+          <div class="col-xxl-12">
+            <div class="product-info-tabs">
+              <ul class="nav" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="home-tab1" data-bs-toggle="tab" data-bs-target="#home-tab-pane1" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="profile-tab2" data-bs-toggle="tab" data-bs-target="#profile-tab-pane2" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Reviews</button>
+                </li>
+              </ul>
+              <div class="product-info-content tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="home-tab-pane1" role="tabpanel" aria-labelledby="home-tab1" tabindex="0">
+                  <div class="product-desc">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minusLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minusLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minusLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minusLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minusLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minus voluptate expedita minima in asperiores, dolorum iste suscipit placeat neque, deleniti error cupiditate veniam libero?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae assumenda ipsum beatae dicta itaque minus voluptate expedita minima in asperiores, dolorum iste suscipit placeat neque, deleniti error cupiditate veniam libero?</p>
+                  </div>
+                </div>
+                <div class="tab-pane fade show active" id="profile-tab-pane2" role="tabpanel" aria-labelledby="profile-tab2" tabindex="0">
+                  <div class="latest-review">
+                    <ul>
+                      <li>
+                        <div class="review-wrapper d-flex">
+                          <div class="r-user-thumb">
+                            <img src="img/product/product-info/r-user-thumb1.png" alt="">
+                          </div>
+                          <div class="user-review">
+                            <div class="user-designation mb-20">
+                              <h3>Jakir Hossain</h3>
+                              <span>Web Developer</span>
+                              <div class="user-ratings">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                              </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores sed tempora deleniti optio nam blanditiis ipsam veritatis alias praesentium !  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores sed tempora deleniti optio nam blanditiis ipsam veritatis alias praesentium</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="review-wrapper d-flex">
+                          <div class="r-user-thumb">
+                            <img src="img/product/product-info/r-user-thumb1.png" alt="">
+                          </div>
+                          <div class="user-review">
+                            <div class="user-designation mb-20">
+                              <h3>Abid Chowdhury</h3>
+                              <span>Web Developer</span>
+                              <div class="user-ratings">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                              </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores sed tempora deleniti optio nam blanditiis ipsam veritatis alias praesentium !  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores sed tempora deleniti optio nam blanditiis ipsam veritatis alias praesentium</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area end -->
+  </main>
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer-area theme-bg pt-75 pb-75">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-12">
+            <div class="copyright-text text-center">
+              <p>Copyright © Your Website 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- All JS Here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
